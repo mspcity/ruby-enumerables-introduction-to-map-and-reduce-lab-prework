@@ -54,9 +54,9 @@ def reduce_to_all_true(source_array)
   while i < source_array.length do
     if !source_array[i]
        false
-    else
-       true
+    end
       i += 1
     end
   end
+  true
 end
